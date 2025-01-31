@@ -151,7 +151,7 @@ a, .btn {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #8f2d56 50%,#f6fff8  50%);
+    background: linear-gradient(to right, #8f2d56 50%,#f5dddd  50%);
     z-index: -1;
     transition: background 0.5s ease-in-out;
   }
@@ -175,7 +175,7 @@ a, .btn {
   }
   
   body.scrolled .color-block {
-    background: linear-gradient(to left, #8f2d56 50%, #f6fff8 50%);
+    background: linear-gradient(to left, #8f2d56 50%, #f5dddd 50%);
   }
   
   body.scrolled .text-box .text {
@@ -541,7 +541,8 @@ article .icon {
     padding: 0;
     flex: 1;
     color: black;
-    background-color: #f6fff8;
+    background-color: #f5dddd;
+    z-index: -1;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
@@ -580,11 +581,10 @@ article .icon {
     font-family: Poppins, sans-serif;
     color: #333;
     font-size: 12px;
-    padding: 40px;
+    padding: 30px 40px;
     text-align: left;
     margin-top: 0;
-    border-top: 4px solidcf5c36;
-    padding-bottom: 30px;
+    border-top: 4px solid #8f2d56;
 }
 
 .project-details ul {
