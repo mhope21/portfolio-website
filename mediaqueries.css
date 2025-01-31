@@ -190,3 +190,13 @@
     }
 
 }
+
+@media screen and (max-width: 400px) {
+    .details-container {
+        padding: 0.25rem 0 2rem;
+    }
+
+    .experience-sub-title {
+        margin-top: 10px;
+    }
+}
