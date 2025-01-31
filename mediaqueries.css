@@ -105,6 +105,20 @@
         line-height: 100px;
     }
 
+    .text {
+        font-size: 15vw;
+    }
+
+    body.scrolled .text-box .text {
+        text-align: center;
+        font-size: 20vw;
+        width: fit-content;
+      }
+
+    body.scrolled .text-box {
+        min-width: 250px;
+    }
+
     #profile {
         height: 83vh;
         margin-bottom: 0;
