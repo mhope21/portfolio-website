@@ -541,7 +541,7 @@ article .icon {
     padding: 0;
     flex: 1;
     color: black;
-    background: white;
+    background-color: #f9e9d0;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
@@ -556,7 +556,8 @@ article .icon {
 }
 
 .img-1 {
-    margin-bottom: 0.7rem;
+    height: 100%;
+    border-bottom: 0.7rem solid white;
 }
 
 .project-title {
@@ -580,12 +581,10 @@ article .icon {
     color: #333;
     font-size: 12px;
     padding: 40px;
-    background-color: #f9e9d0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: left;
     margin-top: 0;
-    min-height: 660px;
     border-top: 4px solid#a30052;
+    padding-bottom: 30px;
 }
 
 .project-details ul {
